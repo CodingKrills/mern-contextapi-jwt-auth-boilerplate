@@ -8,7 +8,7 @@ const port = 5000;
 // set up mongoose
 
 mongoose.connect(
-  'xxx',
+  'mongodb+srv://MyUsername:MyPassword@mycluster.rkncu.mongodb.net/Mern-auth?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
